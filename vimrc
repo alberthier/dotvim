@@ -7,6 +7,10 @@ syntax enable
 set encoding=utf-8
 filetype plugin indent on       " load file type plugins + indentation
 
+"" Backup and swap files
+set nobackup
+set noswapfile
+
 "" Whitespace
 set nowrap                      " don't wrap lines
 set tabstop=4 shiftwidth=4      " a tab is two spaces (or set this to 4)
