@@ -31,8 +31,12 @@ set number
 let g:buffergator_autoexpand_on_split = 0
 let g:ctrlp_working_path_mode = 0
 if has("gui_running")
-   colorscheme molokai
-   set guifont=Ubuntu\ Mono\ 13
+    colorscheme molokai
+    if has('win32')
+        set guifont=Consolas:h11
+    else
+        set guifont=Ubuntu\ Mono\ 13
+    endif
 endif
 
 "" Mappings
