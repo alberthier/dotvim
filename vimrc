@@ -25,13 +25,14 @@ set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
 "" UI
+set t_Co=256                    " Force 256 colors terminal
 set ruler
 set showcmd                     " display incomplete commands
 set number
 let g:buffergator_autoexpand_on_split = 0
 let g:ctrlp_working_path_mode = 0
+colorscheme molokai
 if has("gui_running")
-    colorscheme molokai
     if has('win32')
         set guifont=Consolas:h11
     else
