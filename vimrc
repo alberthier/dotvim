@@ -47,3 +47,11 @@ endif
 "" Mappings
 map <F2> :NERDTreeToggle<CR>
 map <F3> :BuffergatorToggle<CR>
+
+"" Bubble single lines
+map <C-Up> [e
+map <C-Down> ]e
+
+"" Bubble multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
