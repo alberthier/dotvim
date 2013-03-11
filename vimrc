@@ -6,6 +6,7 @@ set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 filetype plugin indent on       " load file type plugins + indentation
+set hidden                      " Allow hidden buffers (do not ask to save unchaned ones)
 
 "" Backup and swap files
 set nobackup
