@@ -53,8 +53,8 @@ map <C-Up> [e
 map <C-Down> ]e
 
 "" Bubble multiple lines
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
+vmap <C-S-Up> [egv
+vmap <C-S-Down> ]egv
 
 "" Indent keeping selection
 vmap > >gv
