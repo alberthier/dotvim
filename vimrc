@@ -19,7 +19,7 @@ set softtabstop=4               " backspace unindents
 set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
 set autoindent
-set listchars=trail:.,extends:>,precedes:<,tab:→\ 
+let &listchars="tab:\u2192 ,trail:\u00b7,extends:\u25b8,precedes:\u25c2"
 set list
 
 "" Searching
