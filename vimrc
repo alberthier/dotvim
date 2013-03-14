@@ -51,8 +51,8 @@ map <F2> :NERDTreeToggle<CR>
 map <F3> :BuffergatorToggle<CR>
 
 "" Bubble single lines
-map <C-Up> [e
-map <C-Down> ]e
+map <C-S-Up> [e
+map <C-S-Down> ]e
 
 "" Bubble multiple lines
 vmap <C-S-Up> [egv
