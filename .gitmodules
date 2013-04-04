@@ -16,9 +16,6 @@
 [submodule "bundle/buffergator"]
 	path = bundle/buffergator
 	url = git://github.com/jeetsukumaran/vim-buffergator.git
-[submodule "bundle/statline"]
-	path = bundle/statline
-	url = git://github.com/millermedeiros/vim-statline.git
 [submodule "bundle/zoomwin"]
 	path = bundle/zoomwin
 	url = git://github.com/vim-scripts/ZoomWin.git
