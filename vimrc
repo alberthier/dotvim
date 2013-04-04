@@ -30,6 +30,7 @@ set smartcase                   " ... unless they contain at least one capital l
 
 "" UI
 set ruler
+set laststatus=2                " display the status line
 set showcmd                     " display incomplete commands
 set number
 let g:buffergator_autoexpand_on_split = 0
