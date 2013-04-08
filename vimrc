@@ -33,6 +33,8 @@ set ruler
 set laststatus=2                " display the status line
 set showcmd                     " display incomplete commands
 set number
+set splitright                  " opens vsplit at the right of the current window
+set splitbelow                  " opens split below the current window
 let g:buffergator_autoexpand_on_split = 0
 let g:ctrlp_working_path_mode = 0
 if has("gui_running")
