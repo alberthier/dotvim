@@ -20,6 +20,7 @@ set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
 set autoindent
 let &listchars="tab:\u2192 ,trail:\u00b7,extends:\u25b8,precedes:\u25c2"
+set fillchars="stl: |stlnc: |vert: |fold:-|diff:-"
 set list
 
 "" Searching
