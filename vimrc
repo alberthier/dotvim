@@ -38,17 +38,14 @@ set splitright                  " opens vsplit at the right of the current windo
 set splitbelow                  " opens split below the current window
 let g:buffergator_autoexpand_on_split = 0
 let g:ctrlp_working_path_mode = 0
+colorscheme molokai
 if has("gui_running")
-    colorscheme solarized
-    set background=light
     if has("win32")
         set guifont=Consolas:h11
     else
         set guifont=Ubuntu\ Mono\ 13
     endif
 elseif $TERM =~# ".*xterm.*"
-    colorscheme solarized
-    set background=dark
     set t_Co=256                    " Force 256 colors terminal
 endif
 
